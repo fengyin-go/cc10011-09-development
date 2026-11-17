@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "../.test-build",
+    "rootDir": "..",
+    "noEmit": false,
+    "declaration": false,
+    "sourceMap": false,
+    "baseUrl": "..",
+    "paths": { "@/*": ["src/*"] }
+  },
+  "include": ["../src/**/*.ts", "./test-compensation.ts"]
+}

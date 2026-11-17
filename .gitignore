@@ -85,3 +85,6 @@ desktop.ini
 *.db
 *.pid
 *.seed
+
+# 漏触发补偿逻辑测试的编译输出
+.test-build/
